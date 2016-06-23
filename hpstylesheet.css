@@ -1,10 +1,16 @@
 img {
     width: 100px;
     height: 100px;
+    display: block;margin: 0 auto
 }
 h1 {
   font-family: fantasy;
   font-size: 2em;
   text-align: center;
   text-shadow: 1;
+}
+p {
+  font-family: monospace;
+  font-size: 22px;
+  text-align: center;
 }
