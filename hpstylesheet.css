@@ -1,7 +1,15 @@
 img {
     width: 100px;
     height: 100px;
-    display: block;margin: 0 auto
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+
+}
+img:hover {
+  opacity: 1;
+  transition: opacity 3s;
+
 }
 h1 {
   font-family: fantasy;
